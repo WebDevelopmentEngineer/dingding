@@ -1,0 +1,132 @@
+@function px2rem($px){
+	$rem:48px;
+	@return($px/$rem)+rem;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/my/1.jpg) no-repeat;
+    background-size:cover;
+    .box{
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0,0,0,.6);
+        box-sizing: border-box;
+        padding: px2rem(20px) px2rem(100px);
+        display: flex;
+        flex-direction: column;
+        header{
+            height: px2rem(200px);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: px2rem(40px);
+            .img{
+                width: px2rem(110px);
+                height: px2rem(110px);
+                border-radius: 50%;
+                background: #3296fa;
+                text-align: center;
+                line-height: px2rem(120px);
+                color: #fff;
+                font-size: 13px;
+            }
+            p{
+                font-size: 13px;
+                color: #fff;
+            }
+        }
+
+        .p1{
+           color: #fff;
+           font-size: 22px;
+           font-weight: bold; 
+           margin-bottom: px2rem(20px);
+        }
+        .p2{
+            color: #fff;
+           font-size: 22px;
+           font-weight: bold;
+        }
+
+        .item{
+            display: flex;
+            flex-direction: column;
+           
+            margin-top: px2rem(80px);
+            .p4{
+                color: #fff;
+                font-size: 13px;
+               
+            }
+            .mobile{
+                height: px2rem(150px);
+                border-bottom: 1px solid #ccc;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .one{
+                    display: flex;
+                    flex-direction: row;
+                    border-right: 2px solid #e0e0e0;
+                    padding: px2rem(15px) px2rem(30px);
+                    p{
+                        color: #fff;
+                        font-weight: bold;
+                    }
+                    i{
+                        color: #fff;
+                        font-weight: bold;
+                    }
+                }
+                .two{
+                    width: 100%;
+                   
+                    height: px2rem(70px);
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    input{
+                        height: 100%;
+                        outline: none;
+                        border: none;
+                        text-indent: 1em;
+                        background: none;
+                    }
+                    ::-webkit-input-placeholder{
+                        font-size: 16px;
+                    }
+                    input:focus{
+                        color: #fff;
+                    }
+                    .close{
+                        width: px2rem(50px);
+                        height: px2rem(50px);
+                        border-radius: 50%;
+                        background: #a3a5a8;
+                        color: #fff;
+                        font-size: 13px;
+                        line-height: px2rem(40px);
+                        text-align: center;
+                    }
+                }
+            }
+            .next{
+                width: 100%;
+                height: px2rem(130px);
+                background: rgba(0,0,0,.3);
+                color: #ccc;
+                text-align: center;
+                line-height: px2rem(130px);
+                margin-top: px2rem(50px);
+                border-radius: px2rem(20px);
+            }
+        }
+    }
+}

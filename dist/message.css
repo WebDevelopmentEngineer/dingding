@@ -1,0 +1,187 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* custom */
+a {
+  color: #7e8c8d;
+  text-decoration: none;
+  -webkit-backface-visibility: hidden; }
+
+li {
+  list-style: none; }
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px; }
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  -webkit-border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  -webkit-border-radius: 6px; }
+
+html, body {
+  width: 100%; }
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+html {
+  font-size: 16px; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 13px; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 13px; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 13px; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 13px; }
+
+header {
+  height: 3.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 0.8333333333rem;
+  align-items: center; }
+  header .three img {
+    width: 1.875rem;
+    height: 1.5625rem;
+    margin-right: 0.4166666667rem; }
+
+.wrap {
+  height: 82vh;
+  box-sizing: border-box;
+  padding: 0 0.8333333333rem;
+  overflow: auto; }
+  .wrap .item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4.1666666667rem;
+    align-items: center;
+    justify-content: space-between; }
+    .wrap .item .left {
+      display: flex;
+      flex-direction: row; }
+      .wrap .item .left img {
+        width: 3.125rem;
+        height: 3.125rem; }
+      .wrap .item .left .tb {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 0.8333333333rem; }
+        .wrap .item .left .tb p {
+          font-size: 15px; }
+        .wrap .item .left .tb span {
+          font-size: 12px;
+          color: #a7a8aa; }
+    .wrap .item .right {
+      height: 60%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column; }
+      .wrap .item .right p {
+        font-size: 13px;
+        color: #a7a8aa; }
+
+.search {
+  height: 3.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .search .search-box {
+    width: 100%;
+    height: 2.0833333333rem;
+    background: #ededed;
+    box-sizing: border-box;
+    padding: 0 0.8333333333rem;
+    display: flex;
+    align-items: center; }
+    .search .search-box input {
+      height: 80%;
+      width: 100%;
+      background: none;
+      text-indent: 1em;
+      outline: none; }
+
+footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+  footer .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    footer .item i {
+      font-size: 22px;
+      color: #a4a5a9; }
+    footer .item p {
+      font-size: 13px;
+      color: #a7a8aa; }
+  footer .active i {
+    color: #3396fb; }
+  footer .active p {
+    color: #3396fb; }
+
+/*# sourceMappingURL=message.css.map */

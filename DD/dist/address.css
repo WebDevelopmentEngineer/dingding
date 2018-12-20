@@ -1,0 +1,149 @@
+header {
+  height: 3.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 0.8333333333rem;
+  align-items: center; }
+  header img {
+    width: 2.0833333333rem;
+    height: 2.0833333333rem; }
+
+.wrap {
+  height: 82vh;
+  box-sizing: border-box;
+  overflow: auto;
+  background: #f5f5f5; }
+  .wrap .search {
+    height: 3.125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 0 0.8333333333rem; }
+    .wrap .search .search-box {
+      width: 100%;
+      height: 2.0833333333rem;
+      background: #ededed;
+      box-sizing: border-box;
+      padding: 0 0.8333333333rem;
+      display: flex;
+      align-items: center;
+      border-radius: 0.4166666667rem; }
+      .wrap .search .search-box input {
+        height: 80%;
+        width: 100%;
+        background: none;
+        text-indent: 1em;
+        outline: none; }
+  .wrap .nav {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 4.1666666667rem;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 0 0.8333333333rem; }
+    .wrap .nav .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .wrap .nav .item img {
+        width: 1.6666666667rem;
+        height: 1.7708333333rem; }
+      .wrap .nav .item p {
+        font-size: 13px;
+        color: #85888d; }
+  .wrap .news {
+    height: 4.1666666667rem;
+    background: #fff;
+    margin-top: 0.4166666667rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0.8333333333rem;
+    align-items: center; }
+    .wrap .news .left {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .wrap .news .left img {
+        width: 3.125rem;
+        height: 3.125rem;
+        margin-right: 0.625rem; }
+    .wrap .news .right {
+      display: flex;
+      flex-direction: row;
+      font-size: 14px;
+      color: #c7c8ca;
+      align-items: center; }
+      .wrap .news .right p {
+        margin-right: 0.4166666667rem; }
+      .wrap .news .right i {
+        font-size: 20px;
+        color: #c7c8ca; }
+  .wrap .about {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin-top: 0.4166666667rem; }
+    .wrap .about .item:first-child .item-box img {
+      width: 3.125rem;
+      height: 3.125rem; }
+    .wrap .about .item {
+      display: flex;
+      flex-direction: row;
+      height: 4.1666666667rem;
+      align-items: center;
+      padding: 0 0.8333333333rem;
+      justify-content: space-between;
+      border-bottom: 1px solid #f6f6f6; }
+      .wrap .about .item .item-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+        .wrap .about .item .item-box img {
+          width: 4.1666666667rem;
+          height: 2.2916666667rem;
+          margin-right: 0.625rem; }
+      .wrap .about .item .guan {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+        .wrap .about .item .guan img {
+          width: 1.6666666667rem;
+          height: 1.4583333333rem; }
+        .wrap .about .item .guan p {
+          font-size: 13px;
+          color: #3496fb; }
+  .wrap .relation {
+    background: #fff;
+    margin-top: 0.4166666667rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0.625rem 0.8333333333rem; }
+    .wrap .relation h3 {
+      font-weight: bold; }
+    .wrap .relation .item {
+      display: flex;
+      flex-direction: row;
+      height: 3.75rem;
+      align-items: center;
+      margin-top: 0.625rem; }
+      .wrap .relation .item img {
+        width: 3.75rem;
+        height: 3.75rem; }
+      .wrap .relation .item .hr {
+        width: 100%;
+        height: 100%;
+        margin-left: 0.625rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #f6f6f6; }
+
+/*# sourceMappingURL=address.css.map */

@@ -1,0 +1,149 @@
+.wrap {
+  background: #f5f5f5;
+  min-height: 100vh; }
+  .wrap header {
+    background: #fff;
+    padding: 0 0.8333333333rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.125rem; }
+    .wrap header i {
+      color: #3994e3;
+      font-size: 24px; }
+    .wrap header h3 {
+      color: #565a5d;
+      font-weight: bold; }
+    .wrap header p {
+      color: #3994e3; }
+  .wrap .name {
+    height: 4.1666666667rem;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 0 0.8333333333rem;
+    align-items: center; }
+    .wrap .name img {
+      width: 3.125rem;
+      height: 3.125rem;
+      margin-right: 0.625rem; }
+    .wrap .name .one {
+      display: flex;
+      flex-direction: column; }
+      .wrap .name .one h3 {
+        font-size: 17px;
+        line-height: 1.4583333333rem; }
+      .wrap .name .one p {
+        font-size: 15px;
+        color: #949494; }
+  .wrap .serve {
+    height: 16.25rem;
+    box-sizing: border-box;
+    padding: 0.8333333333rem 0.8333333333rem;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin-top: 0.625rem; }
+    .wrap .serve .serve-box {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 0.8333333333rem; }
+      .wrap .serve .serve-box img {
+        width: 1.6666666667rem;
+        height: 1.6666666667rem; }
+      .wrap .serve .serve-box h3 {
+        color: #000;
+        line-height: 1.6666666667rem; }
+    .wrap .serve img {
+      height: 12.5rem; }
+  .wrap .zx {
+    height: 6.25rem;
+    background: #fff;
+    margin-top: 0.625rem;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 1.6666666667rem 0.8333333333rem;
+    justify-content: space-between; }
+    .wrap .zx .item {
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid #ecf0f1;
+      align-items: center;
+      justify-content: space-around;
+      box-sizing: border-box;
+      padding: 0 0.8333333333rem; }
+      .wrap .zx .item .one {
+        display: flex;
+        flex-direction: row; }
+        .wrap .zx .item .one img {
+          width: 1.6666666667rem;
+          height: 1.25rem; }
+        .wrap .zx .item .one p {
+          font-size: 13px;
+          margin-top: 0.2083333333rem; }
+      .wrap .zx .item span {
+        font-size: 12px;
+        color: #949494; }
+  .wrap .news {
+    height: 4.1666666667rem;
+    background: #fff;
+    margin-top: 0.8333333333rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0.8333333333rem;
+    align-items: center; }
+    .wrap .news .left {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .wrap .news .left img {
+        width: 2.7083333333rem;
+        height: 2.7083333333rem;
+        margin-right: 0.625rem; }
+    .wrap .news .right {
+      display: flex;
+      flex-direction: row;
+      font-size: 14px;
+      color: #c7c8ca;
+      align-items: center; }
+      .wrap .news .right p {
+        margin-right: 0.4166666667rem; }
+      .wrap .news .right i {
+        font-size: 20px;
+        color: #c7c8ca; }
+  .wrap .wen {
+    height: 12.5rem;
+    background: #fff;
+    margin-top: 0.625rem; }
+    .wrap .wen .wen-box {
+      height: 3.125rem;
+      box-sizing: border-box;
+      padding: 0 0.8333333333rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .wrap .wen .wen-box img {
+        width: 2.7083333333rem;
+        height: 2.2916666667rem;
+        margin-right: 0.625rem; }
+    .wrap .wen .box {
+      display: flex;
+      flex-direction: row;
+      height: 3.125rem;
+      border-top: 1px solid #ecf0f1; }
+      .wrap .wen .box li {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border-right: 1px solid #ecf0f1;
+        color: #666; }
+      .wrap .wen .box .none {
+        border: none; }
+
+/*# sourceMappingURL=service.css.map */

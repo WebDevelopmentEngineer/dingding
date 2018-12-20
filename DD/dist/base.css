@@ -1,0 +1,24 @@
+footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+  footer .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    footer .item i {
+      font-size: 22px;
+      color: #a4a5a9; }
+    footer .item p {
+      font-size: 13px;
+      color: #a7a8aa; }
+  footer .active i {
+    color: #3396fb; }
+  footer .active p {
+    color: #3396fb; }
+
+/*# sourceMappingURL=base.css.map */
